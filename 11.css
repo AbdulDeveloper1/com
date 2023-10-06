@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-inline: 40px;
+    background-color: rgba(255, 255, 255, 0.804);
+    box-shadow: 0 1px 0 0 rgb(238, 233, 233);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+}
+.logo a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: crimson;
+    font-size: 25px;
+    text-decoration: none;
+}
+.bar a{
+    padding-inline: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: crimson;
+    font-weight: 500;
+}
+.home{
+    background-image: url(https://wallpapers.com/images/hd/professional-background-sfjuyc5zs4mum6fh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+.text-1{
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 10px;
+    max-width: fit-content;
+    padding: 5px;
+}
+.text-2{
+    font-size: 39px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.text-2 span{
+    color: crimson;
+}
+.content a{
+    background-color: crimson;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    text-decoration: none;
+}
+.content a:hover{
+    background-color: white;
+    color: crimson;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about{
+    background-color:rgba(203, 201, 201, 0.519);
+}
+.col1{
+    width: 100%;
+    padding-left: 30px;
+}
+.heading span{
+    color: crimson;
+}
+.heading{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.text{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.cc img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: fit-content;
+}
+.col1 a{
+    background-color: crimson;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    text-decoration: none;
+}
+.col1 a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.row2{
+    display: flex;
+    justify-content: space-around;
+}
+.col2{
+    width: 50%;
+    padding: 70px;
+    background-color: rgb(208, 205, 205);
+}
+
+.cl{
+    width: 50%;
+    background-color: rgb(162, 160, 160);
+}
+.col2 .heading{
+    margin-bottom: 20px;
+}
+.line{
+    width: 10%;
+    background-color: crimson;
+    height: 3px;
+    margin-bottom: 20px;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://media.istockphoto.com/id/1414981473/photo/futuristic-flight-through-a-digital-line-landscape-blue-dust-particle-abstract-background-3d.webp?b=1&s=170667a&w=0&k=20&c=nR3IdRbSFibEagWhoCRY_d-WyEJJSv0BLcIsmJJYN5M=);
+    background-size: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    background-attachment: fixed;
+}
+.ser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 525px;
+    color: rgb(255, 255, 255);
+}
+.clients .heading{
+    text-align: center;
+}
+.lines{
+    text-align: center;
+    color: crimson;
+}
+.image img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.image{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+.image img{
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.image img:hover{
+    scale: 1.15;
+}
+.row11{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    padding: 50px;
+    background: #222;
+}
+
+.row11 .column{
+    width: calc(100% / 4);
+  
+}
+.row11 .column .title{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #c8c8c8;
+    
+}
+.column a{
+    gap: 20px;
+}
+.listt-1{
+    color:#c8c8c8;
+    margin-bottom: 50px;
+    list-style: none;
+   
+}
+.row11 .column a{
+  color: #c8c8c8;
+ display: inline-block;
+  margin: 5px 0;
+  font-size: 20px;  
+  transition: all 0.4s ease ; 
+}
+
+.row11 a:hover{
+    margin-left: 4px;
+    color: crimson;
+}
+.row-3{
+    background: #121313;
+    border-top: 1px solid #2a2a2a;
+    padding: 20px;
+    padding-left: 50px;
+    color: #748188;
+    font-size: 14px;
+}
+.c4{
+    word-break: break-all;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: crimson;
+}
+@media screen and (max-width:900px){
+    .nav{
+        display: flex;
+        flex-wrap: wrap ;
+        position: relative;
+        display: none;
+    }
+    .content{
+        text-align: center;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cc img{
+        padding-top: 30px;
+        width: 100%;
+        height: 500px;
+       
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col2{
+        width: 100%;
+        padding: 20px;
+    }
+    .row2{
+        display: flex;
+        flex-direction: column;
+    }
+    .service{
+        background-size: cover;
+    }
+    .ser{
+        word-break: break-all;
+        width: 100%;
+        padding: 20px;
+    }
+    .row11{
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .row11 .column{
+        width: 100%;
+    }
+    
+
+
+
+}

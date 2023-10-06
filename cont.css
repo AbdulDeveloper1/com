@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-inline: 40px;
+    background-color: rgba(255, 255, 255, 0.804);
+    box-shadow: 0 1px 0 0 rgb(238, 233, 233);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+}
+.logo a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: crimson;
+    font-size: 25px;
+    text-decoration: none;
+}
+.bar a{
+    padding-inline: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: crimson;
+    font-weight: 500;
+}
+.home{
+    background-image: url(https://img.freepik.com/free-vector/business-presentation-banner-with-blue-geometric-shape_1017-32330.jpg?w=2000);
+    background-size: cover;
+    height: 80vh;
+    background-attachment: fixed;
+}
+.continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(28, 22, 23);
+}
+.contact{
+    margin-top: 60px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.heading{
+    margin-bottom: 50px;
+}
+.row span{
+    color: crimson;
+}
+.main{
+    font-size: 5px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.title{
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.column1 .column{
+    display: flex;
+    gap: 20px;
+    word-break: break-all;
+    padding-bottom: 30px;
+}
+.column1 .links a{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding-bottom: 20px;
+}
+.image img{
+    width: 100%;
+    max-width: 200px;
+}
+.column2{
+    width: 50%;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.input input{
+    height: 40px;
+    padding-inline: 10px;
+    font-weight: 500;
+    outline: none;
+    border: 1px solid gray;
+    font-size: 20px;
+}
+.input textarea{
+    height: 125px;
+    overflow: hidden;
+    resize: none;
+    
+}
+.error{
+    color: crimson;
+    font-weight: 700;
+}
+.btn{
+    background-color: crimson;
+    color: white;
+    transition: all 0.4s ease ;
+    cursor: pointer;
+    border: none;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+ .map{
+    padding: 50px 20px;
+}
+iframe {
+    width: 100%;
+    min-height: 300px;
+}
+.row11{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    padding: 50px;
+    background: #222;
+}
+
+.row11 .column{
+    width: calc(100% / 4);
+  
+}
+.row11 .column .title{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #c8c8c8;
+    
+}
+.column a{
+    gap: 20px;
+}
+.listt-1{
+    color:#c8c8c8;
+    margin-bottom: 50px;
+    list-style: none;
+   
+}
+.row11 .column a{
+  color: #c8c8c8;
+ display: inline-block;
+  margin: 5px 0;
+  font-size: 20px;  
+  transition: all 0.4s ease ; 
+}
+
+.row11 a:hover{
+    margin-left: 4px;
+    color: crimson;
+}
+.row-3{
+    background: #121313;
+    border-top: 1px solid #2a2a2a;
+    padding: 20px;
+    padding-left: 50px;
+    color: #748188;
+    font-size: 14px;
+}
+.c4{
+    word-break: break-all;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: crimson;
+}
+@media screen and (max-width:900px){
+    .nav{
+        display: flex;
+        flex-wrap: wrap ;
+        position: relative;
+        display: none;
+    }
+    .content{
+        text-align: center;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .column1{
+        width: 100%;
+    }
+    .column2{
+        width: 100%;
+    }
+    .heading{
+        text-align: center;
+    }
+    .image{
+        text-align: center;
+    }
+
+    .error{
+        padding-bottom: 10px;
+    }
+    .hh1{
+        text-align: center;
+    }
+
+    .row11{
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        overflow: hidden;
+    }
+    .row11 .column{
+        width: 100%;
+    }
+    
+}
